@@ -793,7 +793,7 @@
 
         </div>
 
-        <form action="contact_mailer.php" class="contact-form">
+        <form action="contact_mailer.php" method="POST" class="contact-form">
 
           <div class="form-wrapper">
 
