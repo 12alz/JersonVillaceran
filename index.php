@@ -795,67 +795,40 @@
 
         <form action="contact_mailer.php"  class="contact-form">
 
-          <div class="form-wrapper">
+        <div class="form-wrapper">
+    <label for="name" class="form-label">Name</label>
+    <div class="input-wrapper">
+      <input type="text" name="name" id="name" required placeholder="e.g John Doe" class="input-field">
+      <ion-icon name="person-circle"></ion-icon>
+    </div>
+  </div>
 
-            <label for="name" class="form-label">Name</label>
+  <div class="form-wrapper">
+    <label for="email" class="form-label">Email</label>
+    <div class="input-wrapper">
+      <input type="email" name="email" id="email" required placeholder="e.g johndoe@mail.com" class="input-field">
+      <ion-icon name="mail"></ion-icon>
+    </div>
+  </div>
 
-            <div class="input-wrapper">
+  <div class="form-wrapper">
+    <label for="phone" class="form-label">Phone</label>
+    <div class="input-wrapper">
+      <input type="tel" name="phone" id="phone" required placeholder="Phone Number" class="input-field">
+      <ion-icon name="call"></ion-icon>
+    </div>
+  </div>
 
-              <input type="text" name="name" id="name" required placeholder="e.g John Doe" class="input-field">
+  <div class="form-wrapper">
+    <label for="message" class="form-label">Message</label>
+    <div class="input-wrapper">
+      <textarea name="message" id="message" required placeholder="Write your message..." class="input-field"></textarea>
+      <ion-icon name="chatbubbles"></ion-icon>
+    </div>
+  </div>
 
-              <ion-icon name="person-circle"></ion-icon>
-
-            </div>
-
-          </div>
-
-          <div class="form-wrapper">
-
-            <label for="email" class="form-label">Email</label>
-
-            <div class="input-wrapper">
-
-              <input type="email" name="email" id="email" required placeholder="e.g johndoe@mail.com"
-                class="input-field">
-
-              <ion-icon name="mail"></ion-icon>
-
-            </div>
-
-          </div>
-
-          <div class="form-wrapper">
-
-            <label for="phone" class="form-label">Phone</label>
-
-            <div class="input-wrapper">
-
-              <input type="tel" name="phone" id="phone" required placeholder="Phone Number" class="input-field">
-
-              <ion-icon name="call"></ion-icon>
-
-            </div>
-
-          </div>
-
-          <div class="form-wrapper">
-
-            <label for="message" class="form-label">Message</label>
-
-            <div class="input-wrapper">
-
-              <textarea name="message" id="message" required placeholder="Write message..."
-                class="input-field"></textarea>
-
-              <ion-icon name="chatbubbles"></ion-icon>
-
-            </div>
-
-          </div>
-
-          <button type="submit" class="btn btn-primary">Send</button>
-
-        </form>
+  <button type="submit" class="btn btn-primary">Send</button>
+</form>
 
       </section>
 
